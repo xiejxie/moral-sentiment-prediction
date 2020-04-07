@@ -27,15 +27,20 @@ def get_twitter_data(file_path):
     sentences, annotes = [], []
     with open(file_path) as src:
         data = json.load(src, encoding="utf-8")
+        
+        # Iterate through each individual corpus in data
         for d in data:
             for t in d["Tweets"]:
                 text = t["tweet_text"]
                 if text == "no tweet text available":
                     continue
-                # Select mode tag
+
+                # Select mode tag as ground truth
                 all_annotes = [x["annotation"] for x in t["annotations"]]
                 all_annotes = ",".join(all_annotes).split(",")
                 det_class = mode(all_annotes).mode[0]
+
+                # Disregard non-moral tweets
                 if det_class == "non-moral":
                     continue
                 sentences.append(text)
@@ -85,20 +90,22 @@ def train_test(X, X_names, X_labels, y, models, outputdir, classification_type,
     records = []
     error_inds = {"labels": [], "errors": [], "type": []}
 
-    # Split into folds
+    # Split training and testing into folds
     for i, indices in enumerate(kf.split(X[0])):
         train_i, test_i = indices
         y_train, y_test = y[train_i], y[test_i]
         
-        # For each feature type, e.g. {reasoning, both, emotion}
+        # Iterate through each feature type set, e.g. 
+        # {reasoning, both, emotion}, balance if selected
         for name, X_i in zip(X_names, X):
             X_train, X_test = X_i[train_i], X_i[test_i]
             if balance:
                 r = RandomOverSampler(random_state=42)
                 X_train, y_train = r.fit_resample(X_train, y_train)
+            
             all_errors = np.zeros((len(X_test)))
             
-            # For each model
+            # Fit each model and predict the test accuracy
             for model in models:
                 model.fit(X_train, y_train)
                 y_pred = model.predict(X_test)
@@ -110,6 +117,8 @@ def train_test(X, X_names, X_labels, y, models, outputdir, classification_type,
                     "recall": recall_score(y_test, y_pred, average="micro"),
                     "fold": i
                 })
+            
+            # Record where the models errored with their textual data
             error_inds["errors"].extend(all_errors/len(models))
             error_inds["labels"].extend(X_labels[test_i])
             error_inds["type"].extend([name] * len(test_i))
@@ -133,15 +142,23 @@ def preprocess(sentences, embeds, annotes, ratings_df_path):
         return any(w in ratings_df.index for w in list_of_words)
 
     new_sentences, new_annotes = [], []
+    
+    # Get affective ratings
     ratings_df = pd.read_csv(ratings_df_path,
     usecols=["Word","V.Mean.Sum", "A.Mean.Sum", "D.Mean.Sum"], index_col="Word")
+    
+    # Iterate through each piece of text and associated label
     for sentence, annote in zip(sentences, annotes):
         new_sentence = []
         sentence = html.unescape(sentence)
         for word in sentence.split():
+            # Strip punctuation and non-letters from text
             new_word = re.sub('[^A-Za-z ]+', '', word).lower()
             if new_word in embeds:
                 new_sentence.append(new_word)
+        
+        # Assert that the text contains sufficient data such that we can extract
+        # emotional and reasoning based features from it
         if contains_emotion(new_sentence, ratings_df) and len(new_sentence) > 2:
             new_sentences.append(' '.join(new_sentence))
             new_annotes.append(annote)
@@ -167,17 +184,20 @@ def main(args):
             f"{args.dir}/data/{args.embeds}",
             binary=True, limit=args.vocab_size)
 
+    # Do preprocessing and feature extraction
     sentences, annotes = get_data(args)
     sentences, annotes = preprocess(sentences, embeds, annotes,
         f"{args.dir}/data/ratings.csv")
     feature_extractor = FeatureExtractor(args, embeds, sentences)
 
+    # Organize the different feature sets
     X_reasoning = feature_extractor.extract(sentences, feat_type="reasoning")
     X_emotion = feature_extractor.extract(sentences, feat_type="emotion")
     X_both = feature_extractor.extract(sentences)
     X = [X_reasoning, X_emotion, X_both]
     X_names = ["reasoning", "emotion", "both"]
 
+    # Run training and testing for all permutations of features, models
     y = get_y(annotes, args.classification_type)
     models = [KNeighborsClassifier(), GaussianNB(), LogisticRegression(), SVC()]
     train_test(X, X_names, sentences, y, models, f"{args.dir}/results",
@@ -186,7 +206,8 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--dir", help="Directory containing code and data")
+    parser.add_argument("--dir", default=".", 
+        help="Directory containing code and data")
     parser.add_argument("--embeds", help="Embedding package name")
     parser.add_argument("--classification_type",
         choices=["polar", "categorical"])

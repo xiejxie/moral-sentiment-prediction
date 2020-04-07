@@ -34,9 +34,13 @@ def visualize_features(X, y, feature_type):
     """ Visualize (using TSNE in 2D space) the features for both reasoning
     and emotion combined.
     """
+    # Reduce features to 2D space
     X_red = TSNE(n_components=2).fit_transform(X)
-    # X_red = X
+    # Convert labels from their numeric equivalents, [0,4,...] to their text
+    # labels, ["care", "loyalty",...]
     labels = constants.convert_to_labels(y)
+    
+    # Make scatterplot
     ax = sns.scatterplot(x=X_red[:,0], y=X_red[:,1], hue=labels, hue_order=constants.CATEGORY_LABELS,
         palette=sns.color_palette("Paired", 10))
     ax.set_title(f"Twitter features ({feature_type})")
@@ -56,23 +60,34 @@ def select_best_model(records_df):
 def plot_categorical(args):
     """ Run the confusion plot visualization
     """
+    # Read in csv data from `run.py`
     categorical_preds_df = pd.read_csv(f"{args.dir}/results/twitter_categorical_preds_df.csv")
     categorical_records_df = pd.read_csv(f"{args.dir}/results/twitter_categorical_records_df.csv")
+    
+    # Select top performing classification model + feature set
     model, features = select_best_model(categorical_records_df)
+    
+    # Make confusion matrix
     y_preds = categorical_preds_df[f"{model}_{features}"].values
     y_true = categorical_preds_df["truth"].values
     plot_confusion_matrix(y_true, y_preds, f"{model} ({features})")
 
 
 def plot_records(args):
-    """ Plot accuracy graphs
+    """ Plot accuracy graphs. In particular, produce bar plots that display
+    accuracy of each model while accounting for feature type.
     """
+    # Read csvs data produced in `run.py`
     twitter_records_df = pd.read_csv(f"{args.dir}/results/twitter_polar_records_df.csv")
     twitter_c_records_df = pd.read_csv(f"{args.dir}/results/twitter_categorical_records_df.csv")
-    twitter_c_records_df["data"] = "twitter"
     vignettes_records_df = pd.read_csv(f"{args.dir}/results/vignettes_categorical_records_df.csv")
-    vignettes_records_df["data"] = "vignettes"
     df = pd.concat([twitter_c_records_df, vignettes_records_df], ignore_index=True)
+
+    # Assign column data to differentiate the data types
+    vignettes_records_df["data"] = "vignettes"
+    twitter_c_records_df["data"] = "twitter"
+
+    # Shorten model names for ease of reading
     short_names = {
         "KNeighborsClassifier": "kNN",
         "GaussianNB": "NB",
@@ -81,18 +96,24 @@ def plot_records(args):
     }
     df["model"] = df["model"].map(short_names)
     twitter_records_df["model"] = twitter_records_df["model"].map(short_names)
-    sns.catplot(x="model", y="accuracy",
-                hue="features", col="data",
-                data=df, kind="bar")
-    plt.show()
-    sns.catplot(x="model", y="accuracy",
-                hue="features",
-                data=twitter_records_df, kind="bar")
-    plt.title("Twitter Polar Classification")
-    plt.show()
+
+    # Make plots
+    if args.classifcation_type == "categorical":
+        sns.catplot(x="model", y="accuracy",
+                    hue="features", col="data",
+                    data=df, kind="bar")
+        plt.show()
+    else:
+        sns.catplot(x="model", y="accuracy",
+                    hue="features",
+                    data=twitter_records_df, kind="bar")
+        plt.title("Twitter Polar Classification")
+        plt.show()
 
 
 def count_twitter_text(args):
+    """ Count total number of tweets available from twitter data.
+    """
     no_text_available = 0
     totals = 0
     with open(f"{args.dir}/data/MFTC_V4_tweets.json") as src:
@@ -110,13 +131,16 @@ def count_twitter_text(args):
 
 
 def main(args):
+    # Set higher font scale for ease of reading in paper format
     sns.set(font_scale=1.7)
-    # plot_records(args)
-    plot_categorical(args)
+    plot_records(args)
+    if args.classifcation_type == "categorical":
+        plot_categorical(args)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--dir", help="Directory containing code and data")
     parser.add_argument("--data_type", choices = ["twitter", "vignettes"])
+    parser.add_argument("--classifcation_type", choices=["polar", "categorical"])
     main(parser.parse_args())
