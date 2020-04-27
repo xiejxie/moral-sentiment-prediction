@@ -1,6 +1,7 @@
 .vscode
 __pycache__
 moraltwitter.code-workspace
+results/archive
 *.npz
 *.bin
 *.pdf

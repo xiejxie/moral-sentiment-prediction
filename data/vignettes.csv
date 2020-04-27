@@ -1,163 +1,663 @@
-text,category
-You see a teenage boy chuckling at an amputee he passes by while on the subway.,care
-You see a girl laughing at another student forgetting her lines at a school play.,care
-You see a woman commenting out loud about how fat another woman looks in her jeans.,care
-You see a man quickly canceling a blind date as soon as he sees the woman.,care
-You see a boy telling a woman that she looks just like her overweight bulldog.,care
-You see a girl laughing when she realizes her friend's dad is the janitor.,care
-You see a man snickering as he passes by a cancer patient with a bald head.,care
-You see a girl saying that another girl is too ugly to be a varsity cheerleader.,care
-You see a teenage girl openly staring at a disfigured woman as she walks past.,care
-You see a boy making fun of his brother for getting dumped by his girlfriend.,care
-You see a man laughing at a disabled co-worker while at an office softball game.,care
-You see a man loudly telling his wife that the dinner she cooked tastes awful.,care
-You see a man telling a woman that her painting looks like it was done by children.,care
-You see a woman clearly avoiding sitting next to an obese woman on the bus.,care
-You see a girl telling a boy that his older brother is much more attractive than him.,care
-You see a girl telling her classmate that she looks like she has gained weight.,care
-You see a woman swerving her car in order to intentionally run over a squirrel.,care
-You see a woman throwing her cat across the room for scratching the furniture.,care
-You see a boy throwing rocks at cows that are grazing in the local pasture.,care
-You see a man lashing his pony with a whip for breaking loose from its pen.,care
-You see a boy setting a series of traps to kill stray cats in his neighborhood.,care
-You see a zoo trainer jabbing a dolphin to get it to entertain his customers.,care
-You see someone leaving his dog outside in the rain after it dug in the trash.,care
-You see a girl shooting geese repeatedly with a pellet gun out in the woods.,care
-You see a woman snatching away her dog's food for making a mess in the living room.,care
-You see a woman throwing a stapler at her colleague who is snoring during her talk.,care
-You see a teacher hitting a student's hand with a ruler for falling asleep in class.,care
-You see a woman slapping another woman who she is arguing with in the parking lot.,care
-You see a girl throwing her hot coffee on a woman who is dating her ex-boyfriend,care
-You see a wife hitting her husband on the side of his head for coming home late.,care
-You see a boy placing a thumbtack sticking up on the chair of another student.,care
-You see a woman spanking her child with a spatula for getting bad grades in school.,care
-You see a student copying a classmate's answer sheet on a makeup final exam.,fairness
-You see a runner taking a shortcut on the course during the marathon in order to win.,fairness
-You see a tenant bribing a landlord to be the first to get their apartment repainted.,fairness
-You see a soccer player pretending to be seriously fouled by an opposing player.,fairness
-You see someone cheating in a card game while playing with a group of strangers.,fairness
-You see a professor giving a bad grade to a student just because he dislikes him.,fairness
-You see a referee intentionally making bad calls that help his favored team win.,fairness
-You see a manager taking half the doughnuts from a box leaving little for others.,fairness
-You see a judge taking on a criminal case although he is friends with the defendant.,fairness
-You see a student getting an A on a group project when he didn't do his part.,fairness
-You see an employee lying about how many hours she worked during the week.,fairness
-You see a woman getting hired only because her father is close friends with the boss.,fairness
-You see a girl asking for allowance even though her brother did her chores for her.,fairness
-You see a girl taking all the Halloween candy from a bowl leaving none for others.,fairness
-You see a politician using federal tax dollars to build an extension on his home.,fairness
-You see a boy skipping to the front of the line because his friend is an employee.,fairness
-You see a woman lying about the number of vacation days she has taken at work.,fairness
-You see an employee joking with competitors about how bad his company did last year.,loyalty
-You see a coach celebrating with the opposing team's players who just won the game.,loyalty
-You see a former US General saying publicly he would never buy any American product.,loyalty
-You see a mayor saying that the neighboring town is a much better town.,loyalty
-You see the US Ambassador joking in Great Britain about the stupidity of Americans.,loyalty
-You see a man leaving his family business to go work for their main competitor.,loyalty
-You see a teacher publicly saying she hopes another school wins the math contest.,loyalty
-You see a head cheerleader booing her high school's team during a homecoming game.,loyalty
-You see the class president saying on TV that her rival college is a better school.,loyalty
-You see a Hollywood star agreeing with a foreign dictator's denunciation of the US.,loyalty
-You see a college president singing a rival school's fight song during a pep rally.,loyalty
-You see a man secretly voting against his wife in a local beauty pageant.,loyalty
-You see an American telling foreigners that the US is an evil force in the world.,loyalty
-You see the coach's wife sponsoring a bake sale for her husband's rival team.,loyalty
-You see a former Secretary of State publicly giving up his citizenship to the US.,loyalty
-You see a US swimmer cheering as a Chinese foe beats his teammate to win the gold.,loyalty
-You see a girl ignoring her father's orders by taking the car after her curfew.,authority
-You see a woman refusing to stand when the judge walks into the courtroom.,authority
-You see a girl repeatedly interrupting her teacher as he explains a new concept.,authority
-You see a woman spray painting graffiti across the steps of the local courthouse.,authority
-You see an intern disobeying an order to dress professionally and comb his hair.,authority
-You see a man turn his back and walk away while his boss questions his work.,authority
-You see a staff member talking loudly and interrupting the mayor's speech to the public.,authority
-You see a teenage girl coming home late and ignoring her parents' strict curfew.,authority
-You see a boy spray-painting anarchy symbols on the side of the police station.,authority
-You see an employee trying to undermine all of her boss' ideas in front of others.,authority
-You see a teaching assistant talking back to the teacher in front of the classrom.,authority
-You see a group of women having a long and loud conversation during a church sermon.,authority
-You see a star player ignoring her coach's order to come to the bench during a game.,authority
-You see a player publicly yelling at his soccer coach during a playoff game.,authority
-You see a man secretly watching sports on his cell phone during a pastor's sermon.,authority
-You see a boy turning up the TV as his father talks about his military service.,authority
-You see a student stating that her professor is a fool during an afternoon class.,authority
-You see a man having sex with a frozen chicken before cooking it for dinner.,purity
-You see a very drunk woman making out with multiple strangers on the city bus.,purity
-You see a family eating the carcass of their pet dog that had been run over.,purity
-You see a drunk elderly man offering to have oral sex with anyone in the bar.,purity
-You see a teenager urinating in the wave pool at a crowded amusement park.,purity
-You see a man in a bar using his phone to watch people having sex with animals.,purity
-You see a teenage male in a dorm bathroom secretly using a stranger's toothbrush.,purity
-You see a woman having intimate relations with a recently deceased loved one.,purity
-You see a homosexual in a gay bar offering sex to anyone who buys him a drink.,purity
-You see an employee at a morgue eating his pepperoni pizza off of a dead body.,purity
-You see a girl and her sister making out with each other just for practice.,purity
-You see a story about a remote tribe eating the flesh of their deceased members.,purity
-You see a woman burping and farting loudly while eating at a fast food truck.,purity
-You see a man searching through the trash to find women's discarded underwear.,purity
-You see two first cousins getting married to each other in an elaborate wedding.,purity
-You see a single man ordering an inflatable sex doll that looks like his secretary.,purity
-You see a college student drinking until she vomits on herself and falls asleep.,purity
-Basketballers disrespect their coach,authority
-A kid sues her parents to pay for her education.,authority
-A student disrupts the class,authority
-A young man swears at police,authority
-Students disrespecting teacher,authority
-An employee destroys her boss' laptop and office,authority
-A boy is forcefully subdued by police due to fighting,authority
-Child swears at their guardians,authority
-Children disrespect deaf mother,authority
-A basketball player yells at his coaches,authority
-A man disrespects the judge when he is on trial,authority
-Child is abandoned on the side of the road,care
-A man shoots at people,care
-A police officer assaults a woman,care
-Someone throws a shoe at President George Bush,care
-Someone purposefully trips fleeing refugees,care
-A hunter kills an endangered rhino.,care
-A disfigured man was bullied on Instagram by the athlete Shaq,care
-People are starving animals to death,care
-Protesters are beaten by police,care
-Women gossip at work,care
-A man yells insults at his grandma,care
-A bigger boy bullies a smaller boy,care
-A man punches a pregnant woman in the stomach,care
-Kids bully another kid for being overweight,care
-Guys wont date a girl because she’s overweight,care
-Someone throws a shoe at a dog,care
-Two girls fight each other,care
-People make fun of an overweight woman,care
-Teacher hits a student with a ruler,care
-Police in riot gear forcefully deal with protesters,care
-A man jumps a desk and punches a security guard,care
-A teenager disrespects his mother,care
-A man is disrespectful toward his adoptive parents,care
-A mother yells at child,care
-Ballots are destroyed by setting them on fire,fairness
-Vote are rigged during an election,fairness
-People rob an Apple computer store,fairness
-Someone is not hired for a job because of their ethnicity,fairness
-Student cheats in test,fairness
-A man steals a bike,fairness
-A boy in a hurdle race cheats and runs around the hurdles.,fairness
-A man cuts a line so that he can get tickets before other people,fairness
-A woman intentionally dents cans of food in order to get a discount on the product.,fairness
-A man refuses to hire a woman because she is a woman,fairness
-Man lies about a disability to get extra welfare payments,fairness
-A man cheats on a game show,fairness
-A man backs out of a bet during a pool competition,fairness
-A woman lied to put her husband in jail,fairness
-A guy fakes an illegal tackle to try and get a free kick,fairness
-Woman lies to blind man about the value of money bills,fairness
-A rich man steals money from a homeless person,fairness
-Lance Armstrong admitting to drug cheating,fairness
-A woman catches man cheating,loyalty
-A guy cheats his family out of their money and property,loyalty
-Guy admits to cheating on girlfriend,loyalty
-Bride kisses bestman on wedding,loyalty
-A girl is betrayed by her boyfriend to avoid a criminal sentence,loyalty
-A female group audition on talent show and one girl betrays the others for a chance to proceed in the competition,loyalty
-A girl goes to the bathroom and injects herself with drugs,purity
-A woman steals flowers from grave,purity
-A man takes drugs on a bus,purity
-A KKK ceremony,purity
+text,category,polarity,dataset
+You see a teenage boy chuckling at an amputee he passes by while on the subway.,care,negative,clifford
+You see a girl laughing at another student forgetting her lines at a school play.,care,negative,clifford
+You see a woman commenting out loud about how fat another woman looks in her jeans.,care,negative,clifford
+You see a man quickly canceling a blind date as soon as he sees the woman.,care,negative,clifford
+You see a boy telling a woman that she looks just like her overweight bulldog.,care,negative,clifford
+You see a girl laughing when she realizes her friend's dad is the janitor.,care,negative,clifford
+You see a man snickering as he passes by a cancer patient with a bald head.,care,negative,clifford
+You see a girl saying that another girl is too ugly to be a varsity cheerleader.,care,negative,clifford
+You see a teenage girl openly staring at a disfigured woman as she walks past.,care,negative,clifford
+You see a boy making fun of his brother for getting dumped by his girlfriend.,care,negative,clifford
+You see a man laughing at a disabled co-worker while at an office softball game.,care,negative,clifford
+You see a man loudly telling his wife that the dinner she cooked tastes awful.,care,negative,clifford
+You see a man telling a woman that her painting looks like it was done by children.,care,negative,clifford
+You see a woman clearly avoiding sitting next to an obese woman on the bus.,care,negative,clifford
+You see a girl telling a boy that his older brother is much more attractive than him.,care,negative,clifford
+You see a girl telling her classmate that she looks like she has gained weight.,care,negative,clifford
+You see a woman swerving her car in order to intentionally run over a squirrel.,care,negative,clifford
+You see a woman throwing her cat across the room for scratching the furniture.,care,negative,clifford
+You see a boy throwing rocks at cows that are grazing in the local pasture.,care,negative,clifford
+You see a man lashing his pony with a whip for breaking loose from its pen.,care,negative,clifford
+You see a boy setting a series of traps to kill stray cats in his neighborhood.,care,negative,clifford
+You see a zoo trainer jabbing a dolphin to get it to entertain his customers.,care,negative,clifford
+You see someone leaving his dog outside in the rain after it dug in the trash.,care,negative,clifford
+You see a girl shooting geese repeatedly with a pellet gun out in the woods.,care,negative,clifford
+You see a woman snatching away her dog's food for making a mess in the living room.,care,negative,clifford
+You see a woman throwing a stapler at her colleague who is snoring during her talk.,care,negative,clifford
+You see a teacher hitting a student's hand with a ruler for falling asleep in class.,care,negative,clifford
+You see a woman slapping another woman who she is arguing with in the parking lot.,care,negative,clifford
+You see a girl throwing her hot coffee on a woman who is dating her ex-boyfriend,care,negative,clifford
+You see a wife hitting her husband on the side of his head for coming home late.,care,negative,clifford
+You see a boy placing a thumbtack sticking up on the chair of another student.,care,negative,clifford
+You see a woman spanking her child with a spatula for getting bad grades in school.,care,negative,clifford
+You see a student copying a classmate's answer sheet on a makeup final exam.,fairness,negative,clifford
+You see a runner taking a shortcut on the course during the marathon in order to win.,fairness,negative,clifford
+You see a tenant bribing a landlord to be the first to get their apartment repainted.,fairness,negative,clifford
+You see a soccer player pretending to be seriously fouled by an opposing player.,fairness,negative,clifford
+You see someone cheating in a card game while playing with a group of strangers.,fairness,negative,clifford
+You see a professor giving a bad grade to a student just because he dislikes him.,fairness,negative,clifford
+You see a referee intentionally making bad calls that help his favored team win.,fairness,negative,clifford
+You see a manager taking half the doughnuts from a box leaving little for others.,fairness,negative,clifford
+You see a judge taking on a criminal case although he is friends with the defendant.,fairness,negative,clifford
+You see a student getting an A on a group project when he didn't do his part.,fairness,negative,clifford
+You see an employee lying about how many hours she worked during the week.,fairness,negative,clifford
+You see a woman getting hired only because her father is close friends with the boss.,fairness,negative,clifford
+You see a girl asking for allowance even though her brother did her chores for her.,fairness,negative,clifford
+You see a girl taking all the Halloween candy from a bowl leaving none for others.,fairness,negative,clifford
+You see a politician using federal tax dollars to build an extension on his home.,fairness,negative,clifford
+You see a boy skipping to the front of the line because his friend is an employee.,fairness,negative,clifford
+You see a woman lying about the number of vacation days she has taken at work.,fairness,negative,clifford
+You see an employee joking with competitors about how bad his company did last year.,loyalty,negative,clifford
+You see a coach celebrating with the opposing team's players who just won the game.,loyalty,negative,clifford
+You see a former US General saying publicly he would never buy any American product.,loyalty,negative,clifford
+You see a mayor saying that the neighboring town is a much better town.,loyalty,negative,clifford
+You see the US Ambassador joking in Great Britain about the stupidity of Americans.,loyalty,negative,clifford
+You see a man leaving his family business to go work for their main competitor.,loyalty,negative,clifford
+You see a teacher publicly saying she hopes another school wins the math contest.,loyalty,negative,clifford
+You see a head cheerleader booing her high school's team during a homecoming game.,loyalty,negative,clifford
+You see the class president saying on TV that her rival college is a better school.,loyalty,negative,clifford
+You see a Hollywood star agreeing with a foreign dictator's denunciation of the US.,loyalty,negative,clifford
+You see a college president singing a rival school's fight song during a pep rally.,loyalty,negative,clifford
+You see a man secretly voting against his wife in a local beauty pageant.,loyalty,negative,clifford
+You see an American telling foreigners that the US is an evil force in the world.,loyalty,negative,clifford
+You see the coach's wife sponsoring a bake sale for her husband's rival team.,loyalty,negative,clifford
+You see a former Secretary of State publicly giving up his citizenship to the US.,loyalty,negative,clifford
+You see a US swimmer cheering as a Chinese foe beats his teammate to win the gold.,loyalty,negative,clifford
+You see a girl ignoring her father's orders by taking the car after her curfew.,authority,negative,clifford
+You see a woman refusing to stand when the judge walks into the courtroom.,authority,negative,clifford
+You see a girl repeatedly interrupting her teacher as he explains a new concept.,authority,negative,clifford
+You see a woman spray painting graffiti across the steps of the local courthouse.,authority,negative,clifford
+You see an intern disobeying an order to dress professionally and comb his hair.,authority,negative,clifford
+You see a man turn his back and walk away while his boss questions his work.,authority,negative,clifford
+You see a staff member talking loudly and interrupting the mayor's speech to the public.,authority,negative,clifford
+You see a teenage girl coming home late and ignoring her parents' strict curfew.,authority,negative,clifford
+You see a boy spray-painting anarchy symbols on the side of the police station.,authority,negative,clifford
+You see an employee trying to undermine all of her boss' ideas in front of others.,authority,negative,clifford
+You see a teaching assistant talking back to the teacher in front of the classrom.,authority,negative,clifford
+You see a group of women having a long and loud conversation during a church sermon.,authority,negative,clifford
+You see a star player ignoring her coach's order to come to the bench during a game.,authority,negative,clifford
+You see a player publicly yelling at his soccer coach during a playoff game.,authority,negative,clifford
+You see a man secretly watching sports on his cell phone during a pastor's sermon.,authority,negative,clifford
+You see a boy turning up the TV as his father talks about his military service.,authority,negative,clifford
+You see a student stating that her professor is a fool during an afternoon class.,authority,negative,clifford
+You see a man having sex with a frozen chicken before cooking it for dinner.,purity,negative,clifford
+You see a very drunk woman making out with multiple strangers on the city bus.,purity,negative,clifford
+You see a family eating the carcass of their pet dog that had been run over.,purity,negative,clifford
+You see a drunk elderly man offering to have oral sex with anyone in the bar.,purity,negative,clifford
+You see a teenager urinating in the wave pool at a crowded amusement park.,purity,negative,clifford
+You see a man in a bar using his phone to watch people having sex with animals.,purity,negative,clifford
+You see a teenage male in a dorm bathroom secretly using a stranger's toothbrush.,purity,negative,clifford
+You see a woman having intimate relations with a recently deceased loved one.,purity,negative,clifford
+You see a homosexual in a gay bar offering sex to anyone who buys him a drink.,purity,negative,clifford
+You see an employee at a morgue eating his pepperoni pizza off of a dead body.,purity,negative,clifford
+You see a girl and her sister making out with each other just for practice.,purity,negative,clifford
+You see a story about a remote tribe eating the flesh of their deceased members.,purity,negative,clifford
+You see a woman burping and farting loudly while eating at a fast food truck.,purity,negative,clifford
+You see a man searching through the trash to find women's discarded underwear.,purity,negative,clifford
+You see two first cousins getting married to each other in an elaborate wedding.,purity,negative,clifford
+You see a single man ordering an inflatable sex doll that looks like his secretary.,purity,negative,clifford
+You see a college student drinking until she vomits on herself and falls asleep.,purity,negative,clifford
+Basketballers disrespect their coach,authority,negative,mccurrie
+A kid sues her parents to pay for her education.,authority,negative,mccurrie
+A student disrupts the class,authority,negative,mccurrie
+A young man swears at police,authority,negative,mccurrie
+Students disrespecting teacher,authority,negative,mccurrie
+An employee destroys her boss' laptop and office,authority,negative,mccurrie
+A boy is forcefully subdued by police due to fighting,authority,negative,mccurrie
+Child swears at their guardians,authority,negative,mccurrie
+Children disrespect deaf mother,authority,negative,mccurrie
+A basketball player yells at his coaches,authority,negative,mccurrie
+A man disrespects the judge when he is on trial,authority,negative,mccurrie
+Child is abandoned on the side of the road,care,negative,mccurrie
+A man shoots at people,care,negative,mccurrie
+A police officer assaults a woman,care,negative,mccurrie
+Someone throws a shoe at President George Bush,care,negative,mccurrie
+Someone purposefully trips fleeing refugees,care,negative,mccurrie
+A hunter kills an endangered rhino.,care,negative,mccurrie
+A disfigured man was bullied on Instagram by the athlete Shaq,care,negative,mccurrie
+People are starving animals to death,care,negative,mccurrie
+Protesters are beaten by police,care,negative,mccurrie
+Women gossip at work,care,negative,mccurrie
+A man yells insults at his grandma,care,negative,mccurrie
+A bigger boy bullies a smaller boy,care,negative,mccurrie
+A man punches a pregnant woman in the stomach,care,negative,mccurrie
+Kids bully another kid for being overweight,care,negative,mccurrie
+Guys wont date a girl because she’s overweight,care,negative,mccurrie
+Someone throws a shoe at a dog,care,negative,mccurrie
+Two girls fight each other,care,negative,mccurrie
+People make fun of an overweight woman,care,negative,mccurrie
+Teacher hits a student with a ruler,care,negative,mccurrie
+Police in riot gear forcefully deal with protesters,care,negative,mccurrie
+A man jumps a desk and punches a security guard,care,negative,mccurrie
+A teenager disrespects his mother,care,negative,mccurrie
+A man is disrespectful toward his adoptive parents,care,negative,mccurrie
+A mother yells at child,care,negative,mccurrie
+Ballots are destroyed by setting them on fire,fairness,negative,mccurrie
+Vote are rigged during an election,fairness,negative,mccurrie
+People rob an Apple computer store,fairness,negative,mccurrie
+Someone is not hired for a job because of their ethnicity,fairness,negative,mccurrie
+Student cheats in test,fairness,negative,mccurrie
+A man steals a bike,fairness,negative,mccurrie
+A boy in a hurdle race cheats and runs around the hurdles.,fairness,negative,mccurrie
+A man cuts a line so that he can get tickets before other people,fairness,negative,mccurrie
+A woman intentionally dents cans of food in order to get a discount on the product.,fairness,negative,mccurrie
+A man refuses to hire a woman because she is a woman,fairness,negative,mccurrie
+Man lies about a disability to get extra welfare payments,fairness,negative,mccurrie
+A man cheats on a game show,fairness,negative,mccurrie
+A man backs out of a bet during a pool competition,fairness,negative,mccurrie
+A woman lied to put her husband in jail,fairness,negative,mccurrie
+A guy fakes an illegal tackle to try and get a free kick,fairness,negative,mccurrie
+Woman lies to blind man about the value of money bills,fairness,negative,mccurrie
+A rich man steals money from a homeless person,fairness,negative,mccurrie
+Lance Armstrong admitting to drug cheating,fairness,negative,mccurrie
+A woman catches man cheating,loyalty,negative,mccurrie
+A guy cheats his family out of their money and property,loyalty,negative,mccurrie
+Guy admits to cheating on girlfriend,loyalty,negative,mccurrie
+Bride kisses bestman on wedding,loyalty,negative,mccurrie
+A girl is betrayed by her boyfriend to avoid a criminal sentence,loyalty,negative,mccurrie
+A female group audition on talent show and one girl betrays the others for a chance to proceed in the competition,loyalty,negative,mccurrie
+A girl goes to the bathroom and injects herself with drugs,purity,negative,mccurrie
+A woman steals flowers from grave,purity,negative,mccurrie
+A man takes drugs on a bus,purity,negative,mccurrie
+A KKK ceremony,purity,negative,mccurrie
+Adopting a child that has special needs.,charitable,positive,chadwick
+"Not buying a new car you don't need, and donating the money instead.",charitable,positive,chadwick
+Helping build a home for the needy.,charitable,positive,chadwick
+Volunteering at a hospital.,charitable,positive,chadwick
+Volunteering to work or spend time with kids with no families.,charitable,positive,chadwick
+Becoming an organ donor.,charitable,positive,chadwick
+Becoming a Big Brother or Big Sister.,charitable,positive,chadwick
+Helping out in elderly homes.,charitable,positive,chadwick
+Donating money to poor countries.,charitable,positive,chadwick
+Volunteering at a shelter or soup kitchen.,charitable,positive,chadwick
+Working with the less fortunate on a volunteer basis.,charitable,positive,chadwick
+Mentoring children.,charitable,positive,chadwick
+Enduring some sort of short term pain in order to help another.,charitable,positive,chadwick
+Donating blood.,charitable,positive,chadwick
+Fixing a meal for someone you know is homeless.,charitable,positive,chadwick
+Giving someone part time work to get them on their feet.,charitable,positive,chadwick
+Running / walking for cancer research.,charitable,positive,chadwick
+Reading to the children at a library or hospital.,charitable,positive,chadwick
+Buying a homeless person lunch.,charitable,positive,chadwick
+Helping single mothers who want to study.,charitable,positive,chadwick
+Trying hard to help a friend's friend that you even don't know.,charitable,positive,chadwick
+Lending a hand to a person with a flat tire.,charitable,positive,chadwick
+Giving clothes and items no longer needed to the less fortunate.,charitable,positive,chadwick
+Rounding up all of your canned goods to give away.,charitable,positive,chadwick
+"Being a teacher, especially in a school with bad test scores.",charitable,positive,chadwick
+Giving money to the homeless man on the corner.,charitable,positive,chadwick
+Giving away your coats that you know you're not going to wear.,charitable,positive,chadwick
+Letting someone dump all their problems to help them relieve themselves.,charitable,positive,chadwick
+Offering / lending something you own to someone else who needs it.,charitable,positive,chadwick
+Giving money to your church.,charitable,positive,chadwick
+Donating anything you don't use to a charity.,charitable,positive,chadwick
+Giving to family members what you can afford.,charitable,positive,chadwick
+Giving to family members what you can afford.,charitable,positive,chadwick
+Giving food or money to homeless people on an official holiday.,charitable,positive,chadwick
+Talking to the sick.,charitable,positive,chadwick
+Helping take care of a sibling's children while they are at work.,charitable,positive,chadwick
+Buying a friend that is broke lunch.,charitable,positive,chadwick
+"Giving left over food to a bum after a big meal, instead of throwing it away.",charitable,positive,chadwick
+Giving a friend without a car rides.,charitable,positive,chadwick
+Helping a friend who is in need of laundry money by giving them some money.,charitable,positive,chadwick
+Singing x-mas carols at an elderly home.,charitable,positive,chadwick
+Giving the Salvation Army a dollar rather than some change.,charitable,positive,chadwick
+Stopping at a car wash being operated by an organization or team.,charitable,positive,chadwick
+Giving money to the man in front of the department store.,charitable,positive,chadwick
+Giving minimal money to an organization.,charitable,positive,chadwick
+Buying candy from a poor street peddler.,charitable,positive,chadwick
+Buying newspapers from the person on the street.,charitable,positive,chadwick
+Tipping a waiter or waitress.,charitable,positive,chadwick
+Offering advice.,charitable,positive,chadwick
+Buying a raffle ticket from a group.,charitable,positive,chadwick
+Telling police where a thief went.,cooperative,positive,chadwick
+"Doing a task that you do not want to, in order to benefit the community at large.",cooperative,positive,chadwick
+Accepting that you were wrong and taking actions that were previously opposite to your beliefs.,cooperative,positive,chadwick
+Listening to another's opinion when it is strongly opposed to your own.,cooperative,positive,chadwick
+"Agreeing to help someone, although you'd rather not.",cooperative,positive,chadwick
+Being willing to compromise.,cooperative,positive,chadwick
+Pulling over when an emergency vehicle is trying to pass you.,cooperative,positive,chadwick
+Paying back money you owe.,cooperative,positive,chadwick
+Helping your parents with dinner when they are swamped.,cooperative,positive,chadwick
+Being helpful to your group instead of not being helpful.,cooperative,positive,chadwick
+Being civil to your annoying roommate.,cooperative,positive,chadwick
+Agreeing to take an unplanned detour that the group wants to see.,cooperative,positive,chadwick
+Being willing to settle differences in a rational manner.,cooperative,positive,chadwick
+Performing your assigned role without complaint.,cooperative,positive,chadwick
+Working together for the greater good.,cooperative,positive,chadwick
+Holding back snide comments you have for a team member.,cooperative,positive,chadwick
+Doing the dishes after someone has just cooked for you.,cooperative,positive,chadwick
+Trying to adapt to the new changes at work,cooperative,positive,chadwick
+Working on a team project without starting conflicts.,cooperative,positive,chadwick
+"Giving up the things you want to do, and deciding to do the things your friends want to do.",cooperative,positive,chadwick
+"Doing a project, even if it's not your idea.",cooperative,positive,chadwick
+Going with friends to a club that doesn't play your type of music.,cooperative,positive,chadwick
+Doing half of the household chores.,cooperative,positive,chadwick
+Cleaning up after one's self after eating so the next guy has a pleasant experience.,cooperative,positive,chadwick
+Leaving when asked to leave.,cooperative,positive,chadwick
+Fitting in with the group and helping come down to decisions.,cooperative,positive,chadwick
+Doing what you are told to do by someone in a position of authority.,cooperative,positive,chadwick
+Not running from a policeman when they try to pull you over.,cooperative,positive,chadwick
+Coming to a mutual agreement.,cooperative,positive,chadwick
+Doing as you are told at work.,cooperative,positive,chadwick
+Chipping in money when your friends order a pizza.,cooperative,positive,chadwick
+Following directions.,cooperative,positive,chadwick
+Playing the baseball game no matter where they play you.,cooperative,positive,chadwick
+Being quiet in the library.,cooperative,positive,chadwick
+Doing your chores like your mom asked.,cooperative,positive,chadwick
+Deciding that someone's way could be better even though you think it isn't.,cooperative,positive,chadwick
+Remaining silent in church when asked to.,cooperative,positive,chadwick
+Helping your mom / dad bring in the groceries.,cooperative,positive,chadwick
+Doing what needs to be done when it needs to be done.,cooperative,positive,chadwick
+Participating in group discussion in class.,cooperative,positive,chadwick
+Not calling a person back when asked by them not to.,cooperative,positive,chadwick
+Cleaning the windshield while your friend is gassing up.,cooperative,positive,chadwick
+Buckling your seat belt like your mom asked.,cooperative,positive,chadwick
+Helping bring in the groceries.,cooperative,positive,chadwick
+Assisting a professor with handing out materials.,cooperative,positive,chadwick
+Answering questions asked in class when they are directed toward you.,cooperative,positive,chadwick
+Taking prescriptions as directed.,cooperative,positive,chadwick
+Paying attention in class.,cooperative,positive,chadwick
+Helping a store clerk find the item on sale in the ad.,cooperative,positive,chadwick
+Going to church although you weren't chosen to read.,cooperative,positive,chadwick
+Cheating on wife / husband / girlfriend / boyfriend.,dishonest,negative,chadwick
+Con artists tricking charitable people out of their money.,dishonest,negative,chadwick
+Pick-pocketing a wallet.,dishonest,negative,chadwick
+Stealing an item and returning it for cash.,dishonest,negative,chadwick
+Forging a check.,dishonest,negative,chadwick
+Saying I love you for sex.,dishonest,negative,chadwick
+Taking the tip from another table at a restaurant.,dishonest,negative,chadwick
+Taking change out of the register you are balancing.,dishonest,negative,chadwick
+Cheating on a significant other and never telling them.,dishonest,negative,chadwick
+Shoplifting.,dishonest,negative,chadwick
+Stealing books from the used  book store.,dishonest,negative,chadwick
+Stealing money from your mom's purse.,dishonest,negative,chadwick
+A cashier overcharging a customer and pocketing the change.,dishonest,negative,chadwick
+Telling someone you love them when you do not.,dishonest,negative,chadwick
+Hitting a parked car and then taking off.,dishonest,negative,chadwick
+Taking credit for someone else's work,dishonest,negative,chadwick
+Borrowing / taking money from a roommate without asking.,dishonest,negative,chadwick
+Pretending to be someone's friend because they pay for you when you go out.,dishonest,negative,chadwick
+Plagiarism.,dishonest,negative,chadwick
+Stating that you truly believe that being a Nazi is wrong when you yourself are one.,dishonest,negative,chadwick
+Cheating on an exam.,dishonest,negative,chadwick
+Lying to a professor about a quiz grade.,dishonest,negative,chadwick
+"Telling your roommate that you didn't borrow her shirt and stain it, when you did.",dishonest,negative,chadwick
+Stealing an idea from someone.,dishonest,negative,chadwick
+Smoking weed and telling your mom you don't.,dishonest,negative,chadwick
+Looking at someone else's test answers.,dishonest,negative,chadwick
+Not returning extra money that is given to you by accident when cashing your paycheck.,dishonest,negative,chadwick
+Lying to your date about your age or income.,dishonest,negative,chadwick
+Not giving a bank teller back the money they over-paid you.,dishonest,negative,chadwick
+Taking other people's belongings without asking first.,dishonest,negative,chadwick
+Not paying for some candy at the store.,dishonest,negative,chadwick
+Lying to your family about a situation.,dishonest,negative,chadwick
+Taking pills out of a medicine cabinet at a party.,dishonest,negative,chadwick
+"Saying you're going to spend the night at a friend's, but instead going out to party.",dishonest,negative,chadwick
+Lying to your parents about where you were last night.,dishonest,negative,chadwick
+Accepting praise from another when it was not earned.,dishonest,negative,chadwick
+Taking a book from the library without checking it out.,dishonest,negative,chadwick
+Accepting more than the correct change when making a purchase.,dishonest,negative,chadwick
+Taking someone's change from their house when found on the floor.,dishonest,negative,chadwick
+Giving a false opinion when asked.,dishonest,negative,chadwick
+Returning a used item for a full refund.,dishonest,negative,chadwick
+Saying that you are broke when you have money in the bank.,dishonest,negative,chadwick
+Eating the rest of the pizza and denying it.,dishonest,negative,chadwick
+"Telling a person they are nice, when really you think they're rude.",dishonest,negative,chadwick
+Lying about your age.,dishonest,negative,chadwick
+Hiding something.,dishonest,negative,chadwick
+Being a friend when you really dislike that person.,dishonest,negative,chadwick
+Lying about your age to get into a night club.,dishonest,negative,chadwick
+Not giving someone your honest opinion on the way they look.,dishonest,negative,chadwick
+Clocking into work 10 min early,dishonest,negative,chadwick
+Having sex with a friend's significant other.,disloyal,negative,chadwick
+"Having an affair if you have kids, and so also cheating them.",disloyal,negative,chadwick
+Cheating on one's romantic partner.,disloyal,negative,chadwick
+Cheating with a friend's romantic partner.,disloyal,negative,chadwick
+Back stabbing.,disloyal,negative,chadwick
+Turning your back on a close friend because they have nothing material to offer.,disloyal,negative,chadwick
+Leaving your mate if they lose their job.,disloyal,negative,chadwick
+Taking your company's secrets to a competitor.,disloyal,negative,chadwick
+Stealing from employer.,disloyal,negative,chadwick
+Turning on a friend when they are in trouble.,disloyal,negative,chadwick
+Abandoning a military post when an enemy attacks.,disloyal,negative,chadwick
+Bad mouthing a good friend behind their back.,disloyal,negative,chadwick
+Giving personal information to another when asked not to by a friend.,disloyal,negative,chadwick
+Spreading rumors about a co-worker to your boss so you look better.,disloyal,negative,chadwick
+Not standing up for one's convictions.,disloyal,negative,chadwick
+"Ditching a friend because other people think he / she is weird, etc.",disloyal,negative,chadwick
+Disclaiming your family because you think they are an embarrassment.,disloyal,negative,chadwick
+Making out with your partner's brother / sister.,disloyal,negative,chadwick
+Sneaking around behind a persons back.,disloyal,negative,chadwick
+If a person speaks ill of a friend and you agree just so they'll like you.,disloyal,negative,chadwick
+"Telling someone you are their friend, and then bad mouthing them to others.",disloyal,negative,chadwick
+Dating your best friends crush.,disloyal,negative,chadwick
+Making a promise and not keeping it.,disloyal,negative,chadwick
+"Making promises and not keeping them, leaving somebody waiting.",disloyal,negative,chadwick
+Lying to family.,disloyal,negative,chadwick
+Talking behind a friends back.,disloyal,negative,chadwick
+Making a friend help you cheat.,disloyal,negative,chadwick
+Not supporting close friends and family.,disloyal,negative,chadwick
+If you tell a secret someone told you.,disloyal,negative,chadwick
+Not defending family regardless of situation or history.,disloyal,negative,chadwick
+Giving away answers to a test.,disloyal,negative,chadwick
+Going on a date with your friends ex-boyfriend / girlfriend.,disloyal,negative,chadwick
+Siding with a person you hardly know when your friend is in a jam.,disloyal,negative,chadwick
+Going against your father.,disloyal,negative,chadwick
+Speaking ill of a parent or sibling.,disloyal,negative,chadwick
+Not following the laws.,disloyal,negative,chadwick
+Not backing your friend up in a fight.,disloyal,negative,chadwick
+Not attending your best friend's graduation because it's boring.,disloyal,negative,chadwick
+"Not being responsible at work, lying to have a day off.",disloyal,negative,chadwick
+"Not supporting a friend when they are moving to a new place, because you are going to miss them",disloyal,negative,chadwick
+Taking your friend's ex's side when they break up.,disloyal,negative,chadwick
+Showing up late to work.,disloyal,negative,chadwick
+Hanging out with your friend's ex after the break up.,disloyal,negative,chadwick
+Voting for a random candidate when your friend is up for election.,disloyal,negative,chadwick
+Not showing up to work on time because of another interview.,disloyal,negative,chadwick
+Saying bad things about your place of employment.,disloyal,negative,chadwick
+Not going to a friends art opening.,disloyal,negative,chadwick
+Going against a leader's decisions that you voted for.,disloyal,negative,chadwick
+Changing jobs when a salary increase is available at another facility.,disloyal,negative,chadwick
+"Working for Nissan, but buying a new Honda.",disloyal,negative,chadwick
+Helping a person at the store when they are short on money.,friendly,positive,chadwick
+Talking / helping out one who is an outsider.,friendly,positive,chadwick
+Helping a stranger pick up stuff they have dropped.,friendly,positive,chadwick
+When you offer aid to a stranger.,friendly,positive,chadwick
+Taking someone out and paying for it.,friendly,positive,chadwick
+Helping a person out with broken car.,friendly,positive,chadwick
+"At the grocery store, somebody hits on the shelf, things fall off and you help pick everything up.",friendly,positive,chadwick
+Helping an elderly person cross the street.,friendly,positive,chadwick
+Cheering up a person who seems to be having a bad day.,friendly,positive,chadwick
+Taking a neighbor to the store.,friendly,positive,chadwick
+When you're helpful with an old person,friendly,positive,chadwick
+Being nice to your co-workers even under stress.,friendly,positive,chadwick
+Helping someone find a lost dog.,friendly,positive,chadwick
+Sharing food.,friendly,positive,chadwick
+Speaking to the person who serves you coffee (or anything else) like a human being.,friendly,positive,chadwick
+Talking to those who seem uncomfortable in an unfamiliar situation.,friendly,positive,chadwick
+Helping someone with a course that they have difficulties with.,friendly,positive,chadwick
+A server who is always smiling and making small talk.,friendly,positive,chadwick
+Always seeming to be in a good mood towards others.,friendly,positive,chadwick
+Not making fun of others or hurting them in any other way.,friendly,positive,chadwick
+Introducing yourself to a new person in a group.,friendly,positive,chadwick
+"Greeting people when you are, or are not, greeted.",friendly,positive,chadwick
+Pointing out the positive qualities about a person.,friendly,positive,chadwick
+Giving a compliment.,friendly,positive,chadwick
+Opening the door for the person behind you.,friendly,positive,chadwick
+Talking to the person next to you on a plane.,friendly,positive,chadwick
+Offering tissues to a person with a cold.,friendly,positive,chadwick
+Babysitting for the neighbors.,friendly,positive,chadwick
+Making attempts to converse with fellow students in class.,friendly,positive,chadwick
+Picking up something for the person next to you who dropped it.,friendly,positive,chadwick
+Saying hello to people whom you work with outside of work.,friendly,positive,chadwick
+Saying excuse me when you pass in front of someone.,friendly,positive,chadwick
+Telling the teacher how much you like the class.,friendly,positive,chadwick
+Greeting people whom you are acquainted with.,friendly,positive,chadwick
+Giving a nice response when asked a simple question.,friendly,positive,chadwick
+Saying excuse me.,friendly,positive,chadwick
+Starting a conversation with a classmate.,friendly,positive,chadwick
+Speaking to the person behind the register at a gas station.,friendly,positive,chadwick
+When you like to listen.,friendly,positive,chadwick
+"When working in a team, encouraging the quieter ones to talk.",friendly,positive,chadwick
+Saying thank you.,friendly,positive,chadwick
+Smiling at a kid in the car next to you.,friendly,positive,chadwick
+Saying good morning to co-workers.,friendly,positive,chadwick
+Shaking someone's hand when it is presented to you.,friendly,positive,chadwick
+Smiling at someone.,friendly,positive,chadwick
+Waving to your neighbor.,friendly,positive,chadwick
+Waving back when a friend waves.,friendly,positive,chadwick
+Flashing a smile at someone who you don't exactly adore.,friendly,positive,chadwick
+Sharing cigarettes with fellow smokers.,friendly,positive,chadwick
+Giving your girl / boy friend a friendly pat on the rear.,friendly,positive,chadwick
+Returning a lost wallet or purse with the money intact.,honest,positive,chadwick
+Admitting that you cheated on your boy/girlfriend,honest,positive,chadwick
+Not cheating on a test even if you have the answers in front of you.,honest,positive,chadwick
+"Finding keys, cell phone , etc , and turning them in.",honest,positive,chadwick
+Refusing to cheat on an exam when there is an opportunity to do so.,honest,positive,chadwick
+Not cheating on the test when all your friends are.,honest,positive,chadwick
+Admitting when you are to blame when involved in a car accident.,honest,positive,chadwick
+Admit to your mistakes although you know you'll get in trouble.,honest,positive,chadwick
+"Paying your debt in full, even though no one would know if you didn't",honest,positive,chadwick
+"Telling someone (sales rep, business owner) that you accidentally broke or damaged something in the store.",honest,positive,chadwick
+Making a confession.,honest,positive,chadwick
+Speaking the truth even when you know you did wrong.,honest,positive,chadwick
+Correcting a cashier when they give you too much change.,honest,positive,chadwick
+Not taking credit when given it for something someone else did.,honest,positive,chadwick
+"Tell a guy/girl you are 'not interested' from the start, instead of leading them on.",honest,positive,chadwick
+Not plagiarizing on schoolwork.,honest,positive,chadwick
+Answering questions on a survey that correspond to your actual beliefs or condition.,honest,positive,chadwick
+Paying the correct amount when no one knows how many items you have.,honest,positive,chadwick
+Not copying your neighbor's answers on an exam.,honest,positive,chadwick
+Telling your instructor you got an answer wrong even though they counted it right.,honest,positive,chadwick
+Being willing to admit mistakes you make.,honest,positive,chadwick
+Taking credit only for your own work.,honest,positive,chadwick
+Hiring someone based on qualifications and not on relations.,honest,positive,chadwick
+Giving someone something they lost.,honest,positive,chadwick
+"Returning jewelry a friend lent you, but doesn't remember you have it.",honest,positive,chadwick
+"Finding a lost dog, and trying to find it's owner before deciding to keep it.",honest,positive,chadwick
+Not lying when someone wants the truth.,honest,positive,chadwick
+Telling someone the truth when they ask for your opinion.,honest,positive,chadwick
+Giving someone back something they dropped.,honest,positive,chadwick
+Not short-changing someone.,honest,positive,chadwick
+Telling a friend your real opinion when they ask you for it.,honest,positive,chadwick
+Telling the truth whenever you go to a job interview.,honest,positive,chadwick
+Paying for items you take from a store.,honest,positive,chadwick
+Return something you find to the lost and found.,honest,positive,chadwick
+Telling someone they forgot something in their shopping cart.,honest,positive,chadwick
+Paying for your meal even though no one is looking.,honest,positive,chadwick
+Telling someone you are not interested instead of giving them the run around.,honest,positive,chadwick
+Putting information on an application that is true.,honest,positive,chadwick
+"When you find change at someone's house, give it to them, instead of taking it.",honest,positive,chadwick
+Telling someone they have something on their face when out in public.,honest,positive,chadwick
+Giving your real opinion about an issue in class or debate.,honest,positive,chadwick
+Telling someone you look good / bad (honestly) when they ask you.,honest,positive,chadwick
+"When you buy something for a friend, give them their change.",honest,positive,chadwick
+"Telling a friend about a quality you don't like about them, to help them improve themselves.",honest,positive,chadwick
+Disagreeing with a friend when you do not believe what they are saying.,honest,positive,chadwick
+Telling your friend that an outfit is not becoming of her.,honest,positive,chadwick
+Not pretending to know something that you actually don't know.,honest,positive,chadwick
+Telling your friend that their 'ex' has been after you.,honest,positive,chadwick
+Turning in a lost book.,honest,positive,chadwick
+Ask when you need money and cannot pay it back.,honest,positive,chadwick
+Moving across the country to take care of a sick friend.,loyal,positive,chadwick
+Maintaining a military post when death is certain.,loyal,positive,chadwick
+Staying faithful to a loved one.,loyal,positive,chadwick
+Standing by a friend who has a serious illness.,loyal,positive,chadwick
+Refusing to sell corporate secrets for money.,loyal,positive,chadwick
+Putting your loved ones  before yourself.,loyal,positive,chadwick
+Attending an Alcoholics Anonymous meeting with a friend for support.,loyal,positive,chadwick
+Being faithful to friends and family.,loyal,positive,chadwick
+Sticking up for a friend when they are not present.,loyal,positive,chadwick
+Never telling a secret you promised to keep.,loyal,positive,chadwick
+Watching out for a friend when they are three sheets to the wind (intoxicated).,loyal,positive,chadwick
+Supporting parents when they are in need.,loyal,positive,chadwick
+Staying by family and friends when they are in need of help.,loyal,positive,chadwick
+Standing up for a friend when they are being teased or harassed.,loyal,positive,chadwick
+Not cheating on your romantic partner.,loyal,positive,chadwick
+Putting family before friends or fun.,loyal,positive,chadwick
+"Being true to your kids. If you tell them you'll do something, do it.",loyal,positive,chadwick
+Holding to religious beliefs regardless of the circumstances.,loyal,positive,chadwick
+Being there for your friends when they need you.,loyal,positive,chadwick
+"Not cheating on someone, even if you don't have the same feelings for them anymore, and telling them that.",loyal,positive,chadwick
+Not giving up on your friends.,loyal,positive,chadwick
+Refusing to disclose information about a friend when asked not to.,loyal,positive,chadwick
+"If you make a promise, keep it.",loyal,positive,chadwick
+"Staying with your spouse after they gain weight, lose hair, etc.",loyal,positive,chadwick
+Being a good friend.,loyal,positive,chadwick
+Turning down a date with your best friend's 'ex'.,loyal,positive,chadwick
+Telling your friend his / her romantic partner asked you out for a date.,loyal,positive,chadwick
+Helping a good friend or family member whenever they are in need.,loyal,positive,chadwick
+Being by your friends side after they have done something wrong.,loyal,positive,chadwick
+Sticking up for your boss when others are being harshly critical.,loyal,positive,chadwick
+"Visiting both parents, even though they are divorced.",loyal,positive,chadwick
+Defending family regardless of the situation.,loyal,positive,chadwick
+Helping someone even though it's inconvenient for you.,loyal,positive,chadwick
+"Accepting your in-laws, even though they hate you.",loyal,positive,chadwick
+Standing by your spouse's side even if you feel they are in the wrong.,loyal,positive,chadwick
+Fulfilling your obligations to your boss.,loyal,positive,chadwick
+Keeping a secret for a close friend when asked to do so.,loyal,positive,chadwick
+Keeping a work appointment despite having something more fun to do.,loyal,positive,chadwick
+"Staying with your job, regardless of pay.",loyal,positive,chadwick
+Being a responsible employee.,loyal,positive,chadwick
+Maintaining a job when a salary increase is available somewhere else.,loyal,positive,chadwick
+Standing up for a friend even when you know they are wrong.,loyal,positive,chadwick
+"Always helping your mom with chores, without being asked.",loyal,positive,chadwick
+Following all the laws.,loyal,positive,chadwick
+"Protecting your best friend, even when they've done something wrong.",loyal,positive,chadwick
+"Staying with your spouse, regardless of their cheating on you.",loyal,positive,chadwick
+Cooking dinner when you're really not feeling up to it.,loyal,positive,chadwick
+Keeping sacred induction rituals of your sorority or fraternity a secret.,loyal,positive,chadwick
+Voting for the candidate of your political party.,loyal,positive,chadwick
+Going to a family reunion.,loyal,positive,chadwick
+Giving the homeless guy rocks instead of food.,uncharitable,negative,chadwick
+Having millions of dollars and not helping one person in need of something.,uncharitable,negative,chadwick
+Saying you're homeless when you are not really.,uncharitable,negative,chadwick
+Refusing aid to a parent when they are in need.,uncharitable,negative,chadwick
+Not helping the needy or homeless because you think you are better than them.,uncharitable,negative,chadwick
+Being rich and not giving to the less fortunate.,uncharitable,negative,chadwick
+Name calling those less fortunate than you.,uncharitable,negative,chadwick
+Being rude to those who are working for the greater good.,uncharitable,negative,chadwick
+Not letting a friend stay at your house if they have nowhere to go.,uncharitable,negative,chadwick
+Having large amounts of money and not contributing to needy causes.,uncharitable,negative,chadwick
+Thinking homeless people are dirty and gross and it was all their fault that they are homeless.,uncharitable,negative,chadwick
+"Saying you will help others, but you really don't.",uncharitable,negative,chadwick
+Not giving tips for any kind of service.,uncharitable,negative,chadwick
+When your best friend wants to just borrow a little money from you and you refuse even though you know the will pay you back.,uncharitable,negative,chadwick
+Throwing away items that could be donated.,uncharitable,negative,chadwick
+Refusing to donate clothes you haven't worn in a decade.,uncharitable,negative,chadwick
+Making a smart remark when asked to donate something to a group.,uncharitable,negative,chadwick
+Getting a free car wash and not giving a donation.,uncharitable,negative,chadwick
+Ignoring a homeless mother and child.,uncharitable,negative,chadwick
+Passing laws that ostracize the homeless.,uncharitable,negative,chadwick
+Not participating in Toy's for Tot's even though you have dozens of toys.,uncharitable,negative,chadwick
+Not being interested in what others need.,uncharitable,negative,chadwick
+Being ignorant to the fact that everyone needs a little help.,uncharitable,negative,chadwick
+Never once doing community service in your entire life.,uncharitable,negative,chadwick
+Not offering service to someone who isn't dressed up to par.,uncharitable,negative,chadwick
+Not giving a ride to a friend who needs it.,uncharitable,negative,chadwick
+Backing out of someone's life because they have an addiction.,uncharitable,negative,chadwick
+Refusing to accept discomfort when it could mean a great improvement for another.,uncharitable,negative,chadwick
+Not donating money to a cancer child.,uncharitable,negative,chadwick
+Not giving something you don't need because it costs you money.,uncharitable,negative,chadwick
+Not buying a friend lunch when they are broke.,uncharitable,negative,chadwick
+"Not contributing to any society, especially when the cost is minimal (e.g. $1.00).",uncharitable,negative,chadwick
+Never offering your help during the holidays.,uncharitable,negative,chadwick
+Not giving money to your church.,uncharitable,negative,chadwick
+Ignoring someone who asks for money to eat.,uncharitable,negative,chadwick
+Refusing to assist in rebuilding the neighborhood playground.,uncharitable,negative,chadwick
+Eating out alone because you know your friend is broke.,uncharitable,negative,chadwick
+Selling stuff cheaply that you don't want instead of donating it.,uncharitable,negative,chadwick
+Telling people that they should get a job.,uncharitable,negative,chadwick
+Taking more time than you are allotted to a lunch break at work.,uncharitable,negative,chadwick
+Not giving money to the homeless man in front of the department store.,uncharitable,negative,chadwick
+Not wanting to welcome a homeless person to your home for one meal.,uncharitable,negative,chadwick
+Driving by someone who needs a ride.,uncharitable,negative,chadwick
+Never sending give bucks to the vets.,uncharitable,negative,chadwick
+Refusing to take the time to explain your beliefs to others.,uncharitable,negative,chadwick
+Not donating your time at the homeless shelter.,uncharitable,negative,chadwick
+Not feeding a stray cat a little something.,uncharitable,negative,chadwick
+Not wanting anyone over for dinner.,uncharitable,negative,chadwick
+Not singing x-mas carols at an elderly house.,uncharitable,negative,chadwick
+Buying from big corporations.,uncharitable,negative,chadwick
+Not pulling over for an ambulance that is trying to pass you.,uncooperative,negative,chadwick
+Not willing to listen to others thoughts and shouting out your own.,uncooperative,negative,chadwick
+Running from authorities.,uncooperative,negative,chadwick
+"Always wanting to do the things you want to do, and trying to control other people.",uncooperative,negative,chadwick
+Refusing to admit that you wrong when strong evidence is against you.,uncooperative,negative,chadwick
+Not telling police where a thief went.,uncooperative,negative,chadwick
+Being loud when silence is needed.,uncooperative,negative,chadwick
+Refusing to follow directions.,uncooperative,negative,chadwick
+Not wanting to work on a project that you picked.,uncooperative,negative,chadwick
+Refusing to compromise.,uncooperative,negative,chadwick
+Refusing to pitch in for dinner because it's not your favorite restaurant.,uncooperative,negative,chadwick
+Arguing with a professor when you are at fault.,uncooperative,negative,chadwick
+Breaking house rules all the time.,uncooperative,negative,chadwick
+Continuing to ask someone on a date when they have asked you not to.,uncooperative,negative,chadwick
+Always being argumentative.,uncooperative,negative,chadwick
+Doing the opposite of what someone tells you.,uncooperative,negative,chadwick
+Not helping your roommate clean up after a raging party.,uncooperative,negative,chadwick
+Watching someone struggle to carry a box while you sit on your butt.,uncooperative,negative,chadwick
+Refusing to pick up after yourself in a cafeteria.,uncooperative,negative,chadwick
+Ignoring someone who is speaking.,uncooperative,negative,chadwick
+Trying to take complete control of a group.,uncooperative,negative,chadwick
+Refusing to do assigned chores.,uncooperative,negative,chadwick
+Never offering to be the nights designated driver.,uncooperative,negative,chadwick
+Interrupting another in a conversation because their opinions oppose your own.,uncooperative,negative,chadwick
+Not wanting to talk when someone else needs you to.,uncooperative,negative,chadwick
+Yelling at your parents when you are late for curfew.,uncooperative,negative,chadwick
+Leaving in the middle of a discussion.,uncooperative,negative,chadwick
+Skipping scheduled appointments.,uncooperative,negative,chadwick
+Refusing to speak during a group oral presentation.,uncooperative,negative,chadwick
+Not helping out because you don't enjoy the present task.,uncooperative,negative,chadwick
+Not buckling your seat belt like your mom asked.,uncooperative,negative,chadwick
+Always punching little brother when told not to.,uncooperative,negative,chadwick
+Not listening to an elder.,uncooperative,negative,chadwick
+Not listening to a doctors advice.,uncooperative,negative,chadwick
+Refusing to adapt to the new changes.,uncooperative,negative,chadwick
+Whining about the task you have been asked to do.,uncooperative,negative,chadwick
+Giving the silent treatment.,uncooperative,negative,chadwick
+Not helping on homework even though you know what to do.,uncooperative,negative,chadwick
+Ditching one friend because another has more plans that night.,uncooperative,negative,chadwick
+Not playing on first base because you don't like it.,uncooperative,negative,chadwick
+Not wanting to watch a movie that everyone wants to watch.,uncooperative,negative,chadwick
+Not listening in class.,uncooperative,negative,chadwick
+Leaving work when needed.,uncooperative,negative,chadwick
+Not voting in a presidential election.,uncooperative,negative,chadwick
+Little kids not wanting to go to sleep.,uncooperative,negative,chadwick
+Making everything a joke.,uncooperative,negative,chadwick
+Not stopping to aid someone on the highway.,uncooperative,negative,chadwick
+Going to the place you want to eat all the time.,uncooperative,negative,chadwick
+Not wanting to learn music because it's too easy.,uncooperative,negative,chadwick
+Not being a part of a committee because you dislike their ideas.,uncooperative,negative,chadwick
+Making fun of people to make yourself feel better.,unfriendly,negative,chadwick
+Yelling at the store clerk for no good reason.,unfriendly,negative,chadwick
+Not allowing another to have food when more than enough is available.,unfriendly,negative,chadwick
+Walking away when someone introduces themselves.,unfriendly,negative,chadwick
+Shutting someone up when they are speaking.,unfriendly,negative,chadwick
+Looking down on poor people.,unfriendly,negative,chadwick
+Being rude to foreigners.,unfriendly,negative,chadwick
+Being rude to someone who just helped you.,unfriendly,negative,chadwick
+Pushing someone out of the way so you can be first.,unfriendly,negative,chadwick
+Giving someone the middle finger.,unfriendly,negative,chadwick
+Talking about someone behind their back.,unfriendly,negative,chadwick
+Not speaking to a new employee just because they are funny looking.,unfriendly,negative,chadwick
+Making fun of someone.,unfriendly,negative,chadwick
+"Giving someone dirty looks because of their clothing, hair, etc.",unfriendly,negative,chadwick
+Never listening to what others have to say.,unfriendly,negative,chadwick
+Not helping an old person on a walker open the door.,unfriendly,negative,chadwick
+Ostracizing someone from the group.,unfriendly,negative,chadwick
+Giving a rude response when asked a simple question.,unfriendly,negative,chadwick
+Talking above someone.,unfriendly,negative,chadwick
+Being rude to a cashier at a store.,unfriendly,negative,chadwick
+Not greeting people when being greeted.,unfriendly,negative,chadwick
+Glaring at someone.,unfriendly,negative,chadwick
+Being closed minded.,unfriendly,negative,chadwick
+Remaining silent when asked how's it going?,unfriendly,negative,chadwick
+Making smart comments about everything.,unfriendly,negative,chadwick
+Talking bad about someone you know or don't know.,unfriendly,negative,chadwick
+Giving dirty looks.,unfriendly,negative,chadwick
+Making a rude remark about someone.,unfriendly,negative,chadwick
+Exhibiting a bad attitude to friends when they are not the reason you are in a bad mood.,unfriendly,negative,chadwick
+"Providing customer service without a hello, thank you, or goodbye.",unfriendly,negative,chadwick
+Not helping someone out at work when they could use some help.,unfriendly,negative,chadwick
+Rolling your eyes at someone negatively.,unfriendly,negative,chadwick
+Not apologizing for bumping into someone in a hallway.,unfriendly,negative,chadwick
+Not telling someone thank you for services.,unfriendly,negative,chadwick
+Not saying thanks to your server at a restaurant.,unfriendly,negative,chadwick
+Cutting someone off while driving.,unfriendly,negative,chadwick
+When a person working at a restaurant asks what do you want without saying hi first.,unfriendly,negative,chadwick
+Not calling when you said you would.,unfriendly,negative,chadwick
+Not smiling when being smiled at.,unfriendly,negative,chadwick
+Not holding a door for someone who is following you into a building.,unfriendly,negative,chadwick
+Not answering the door when you know a neighbor has dropped by.,unfriendly,negative,chadwick
+Making prank phone calls.,unfriendly,negative,chadwick
+Saying hello to someone with an angry expression on your face.,unfriendly,negative,chadwick
+Not introducing yourself to a new person in a group.,unfriendly,negative,chadwick
+Walking past your neighbor with your head down.,unfriendly,negative,chadwick
+Not saying hello to old teachers or professors.,unfriendly,negative,chadwick
+Avoiding luncheons with co-workers or fellow students.,unfriendly,negative,chadwick
+Not waving at an overly happy motorist.,unfriendly,negative,chadwick
+Never getting to know your classmates.,unfriendly,negative,chadwick
+If you're always very quiet.,unfriendly,negative,chadwick
