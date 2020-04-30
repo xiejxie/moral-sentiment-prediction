@@ -1,5 +1,5 @@
-from features import BertFeatureExtractor
-from gensim.models import KeyedVectors
+from features import BertFeatureExtractor, GloveFeatureExtractor, \
+MainVerbFeatureExtractor, EmotionFeatureExtractor, ReasoningFeatureExtractor
 from senticnet.senticnet import SenticNet
 from sklearn.model_selection import KFold
 from sklearn.metrics import accuracy_score, recall_score, precision_score
@@ -101,28 +101,36 @@ def preprocess(sentences):
             new_sentence.append(new_word)
         # Assert that the text contains sufficient data such that we can extract
         # emotional and reasoning based features from it
-        new_sentences.append(' '.join(new_sentence))
+        new_sentences.append(' '.join(new_sentence) + '.')
     return new_sentences
 
 
-def extract_features(sentences, feature_type):
-    if feature_type == "bert":
-        feature_extractor = BertFeatureExtractor()
+def init_feature_extractor(args):
+    data_dir = f"{args.dir}/data"
+    if args.feature_type == "bert":
+        return BertFeatureExtractor()
+    elif args.feature_type == "glove":
+        return GloveFeatureExtractor(f"{data_dir}/{args.embeds}")
+    elif args.feature_type == "main_verb":
+        return MainVerbFeatureExtractor(f"{data_dir}/{args.embeds}")
+    elif args.feature_type == "emotion":
+        return EmotionFeatureExtractor(f"{data_dir}/ratings.csv")
+    elif args.feature_type == "reasoning":
+        return ReasoningFeatureExtractor(f"{data_dir}/{args.embeds}",
+            f"{data_dir}/{args.mfd}")
     else:
         raise NotImplementedError
 
-    return feature_extractor.extract(sentences)
 
-
-def get_data(args):
+def get_data(data_type, args):
     """ Parse either tweets or vignettes data.
 
     return: a list of short texts, their corresponding moral labels
     """
-    if args.data_type == "twitter":
+    if data_type == "twitter":
         sentences, annotes = get_twitter_data(f"{args.dir}/data/{args.mtc}")
-    elif args.data_type.startswith("vignettes"):
-        vignette_type = args.data_type.split('_')[1]
+    elif data_type.startswith("vignettes"):
+        vignette_type = data_type.split('_')[1]
         sentences, annotes = get_vignettes_data(
             f"{args.dir}/data/{args.vignettes}", 
             vignette_type, args.classification_type)
@@ -145,18 +153,22 @@ def get_y(annotes):
 
 
 def main(args):
-    # Do preprocessing and feature extraction
-    sentences, annotes = get_data(args)
-    sentences = preprocess(sentences)
 
-    # Organize the different feature sets
-    X = extract_features(sentences, args.feature_type)
+    feature_extractor = init_feature_extractor(args)
+    for data_type in args.data_types:
+        # Do preprocessing and feature extraction
+        sentences, annotes = get_data(data_type, args)
+        sentences = preprocess(sentences)
 
-    # Run training and testing for all permutations of features, models
-    y = get_y(annotes)
-    models = [KNeighborsClassifier(), GaussianNB(), LogisticRegression(), SVC()]
-    train_test(X, args.feature_type, sentences, y, models, f"{args.dir}/results",
-        args.classification_type, args.data_type, balance=False)
+        # Organize the different feature sets
+        X = feature_extractor.extract(sentences)
+
+        # Run training and testing for all permutations of features, models
+        y = get_y(annotes)
+        models = [KNeighborsClassifier(), GaussianNB(), LogisticRegression(), SVC()]
+        train_test(X, args.feature_type, sentences, y, models,
+            f"{args.dir}/results", args.classification_type, data_type,
+            balance=False)
 
 
 if __name__ == '__main__':
@@ -166,13 +178,14 @@ if __name__ == '__main__':
     parser.add_argument("--embeds", help="Embedding package name")
     parser.add_argument("--classification_type",
         choices=["polar", "categorical"])
-    parser.add_argument("--feature_type", choices=["bert"])
+    parser.add_argument("--feature_type", choices=["bert", "glove",
+        "main_verb", "emotion", "reasoning"])
     parser.add_argument("--mtc", default="MFTC_V4_tweets.json",
         help="Name for moral twitter corpus json source")
     parser.add_argument("--mfd", default="mfd_v1.csv")
     parser.add_argument("--vocab_size", type=int, default=None,
         help="Vocabulary size")
-    parser.add_argument("--data_type", choices=["twitter", "vignettes_mccurrie",
-        "vignettes_chadwick", "vignettes_clifford"])
     parser.add_argument("--vignettes", default="vignettes.csv")
+    parser.add_argument("--data_types", choices=["twitter", "vignettes_mccurrie",
+        "vignettes_chadwick", "vignettes_clifford"], nargs="*")
     main(parser.parse_args())

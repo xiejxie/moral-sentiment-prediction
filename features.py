@@ -1,7 +1,10 @@
 from senticnet.senticnet import SenticNet
+from gensim.models import KeyedVectors
 from gensim import corpora, models
 from sentence_transformers import SentenceTransformer
 from abc import ABC, abstractmethod
+from collections import namedtuple
+import stanza
 import constants
 import numpy as np
 import pandas as pd
@@ -16,6 +19,36 @@ class FeatureExtractor(ABC):
     def extract(self, sentences):
         pass
 
+
+class BasicFeatureExtractor(FeatureExtractor):
+
+    def __init__(self, default_size):
+        self.default_size = default_size
+
+    @abstractmethod
+    def get_features_from_word(self, word):
+        pass
+
+    @abstractmethod
+    def is_word_in_vocab(self, word):
+        pass
+
+    def extract(self, sentences):
+        X = []
+        for sentence in sentences:
+            features = [
+                np.array(self.get_features_from_word(w))
+                for w in sentence
+                if self.is_word_in_vocab(w)
+            ]
+            if len(features) == 0:
+                features = [np.random.randn(self.default_size)]
+            X.append(np.mean(features, axis=0))
+        
+        return np.array(X)
+
+
+
 class BertFeatureExtractor(FeatureExtractor):
 
     def __init__(self):
@@ -24,7 +57,105 @@ class BertFeatureExtractor(FeatureExtractor):
     
     def extract(self, sentences):
         return self.model.encode(sentences)
+
+
+class GloveFeatureExtractor(BasicFeatureExtractor):
+
+    def __init__(self, embed_path):
+        self.embeds = KeyedVectors.load_word2vec_format(embed_path, binary=True)
+        super().__init__(self.embeds.vector_size)
+
+
+    def get_features_from_word(self, word):
+        return self.embeds[word]
+
+
+    def is_word_in_vocab(self, word):
+        return word in self.embeds
         
+
+class MainVerbFeatureExtractor(FeatureExtractor):
+
+    def __init__(self, embed_path):
+        super().__init__()
+        self.embeds = KeyedVectors.load_word2vec_format(embed_path, binary=True)
+        self.nlp = stanza.Pipeline(lang='en',
+            processors='tokenize,mwt,pos,lemma,depparse')
+
+    def extract(self, sentences):
+        text = " ".join(sentences)
+        doc = self.nlp(text)
+        X = []
+
+        for sentence in doc.sentences:
+            root = next((word.text for word in sentence.words if word.deprel == "root"), None)
+            if root in self.embeds:
+                X.append(self.embeds[root])
+            else:
+                X.append(np.random.randn(self.embeds.vector_size))
+        
+        return np.array(X)
+
+
+class EmotionFeatureExtractor(BasicFeatureExtractor):
+
+    def __init__(self, ratings_path):
+        labels = ["V.Mean.Sum", "A.Mean.Sum", "D.Mean.Sum"]
+        self.labels = labels
+        self.ratings_df = pd.read_csv(ratings_path,
+            usecols=["Word"] + labels,
+            index_col="Word")
+        super().__init__(len(labels))
+    
+
+    def get_features_from_word(self, word):
+        return [
+            self.ratings_df.at[word, l]
+            for l in self.labels
+        ]
+
+
+    def is_word_in_vocab(self, word):
+        return word in self.ratings_df
+
+
+class ReasoningFeatureExtractor(GloveFeatureExtractor):
+
+    def __init__(self, embed_path, mfd_path):
+        super().__init__(embed_path)
+        mfd = self.__get_mfd(mfd_path)
+        self.centroids = self.__make_centroids(self.embeds, mfd)
+        self.default_size = self.centroids.shape[0]
+
+
+    def extract(self, sentences):
+        X = super().extract(sentences)
+        X_expd = np.repeat(np.expand_dims(X, 1), NUM_FOUNDATIONS, axis=1)
+        centroids_expd = np.repeat(np.expand_dims(self.centroids, 0),
+            X.shape[0], axis=0)
+        assert X_expd.shape == centroids_expd.shape
+        distances = np.sqrt(np.sum(np.square(X_expd-centroids_expd), axis=2))
+        return np.nan_to_num(distances)
+
+
+    def __make_centroids(self, embeds, mfd):
+        centroids = np.zeros((NUM_FOUNDATIONS, embeds.vector_size))
+        counts = np.zeros((NUM_FOUNDATIONS))
+        for row in mfd.itertuples():
+            word = row.word
+            if word in embeds:
+                centroids[row.category] += embeds[word]
+                counts[row.category] += 1
+        counts = np.repeat(np.expand_dims(counts, 1), centroids.shape[1],
+            axis=1)
+        return centroids/counts
+    
+
+    def __get_mfd(self, mfd_path):
+        mfd = pd.read_csv(mfd_path)
+        mfd["category"] -= 1
+        mfd.set_index("category")
+        return mfd
 
 # class FeatureExtractor:
 #     def __init__(self, args, embeds, sentences):

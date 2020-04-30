@@ -1,103 +1,103 @@
 text,category,polarity,dataset
-You see a teenage boy chuckling at an amputee he passes by while on the subway.,care,negative,clifford
-You see a girl laughing at another student forgetting her lines at a school play.,care,negative,clifford
-You see a woman commenting out loud about how fat another woman looks in her jeans.,care,negative,clifford
-You see a man quickly canceling a blind date as soon as he sees the woman.,care,negative,clifford
-You see a boy telling a woman that she looks just like her overweight bulldog.,care,negative,clifford
-You see a girl laughing when she realizes her friend's dad is the janitor.,care,negative,clifford
-You see a man snickering as he passes by a cancer patient with a bald head.,care,negative,clifford
-You see a girl saying that another girl is too ugly to be a varsity cheerleader.,care,negative,clifford
-You see a teenage girl openly staring at a disfigured woman as she walks past.,care,negative,clifford
-You see a boy making fun of his brother for getting dumped by his girlfriend.,care,negative,clifford
-You see a man laughing at a disabled co-worker while at an office softball game.,care,negative,clifford
-You see a man loudly telling his wife that the dinner she cooked tastes awful.,care,negative,clifford
-You see a man telling a woman that her painting looks like it was done by children.,care,negative,clifford
-You see a woman clearly avoiding sitting next to an obese woman on the bus.,care,negative,clifford
-You see a girl telling a boy that his older brother is much more attractive than him.,care,negative,clifford
-You see a girl telling her classmate that she looks like she has gained weight.,care,negative,clifford
-You see a woman swerving her car in order to intentionally run over a squirrel.,care,negative,clifford
-You see a woman throwing her cat across the room for scratching the furniture.,care,negative,clifford
-You see a boy throwing rocks at cows that are grazing in the local pasture.,care,negative,clifford
-You see a man lashing his pony with a whip for breaking loose from its pen.,care,negative,clifford
-You see a boy setting a series of traps to kill stray cats in his neighborhood.,care,negative,clifford
-You see a zoo trainer jabbing a dolphin to get it to entertain his customers.,care,negative,clifford
-You see someone leaving his dog outside in the rain after it dug in the trash.,care,negative,clifford
-You see a girl shooting geese repeatedly with a pellet gun out in the woods.,care,negative,clifford
-You see a woman snatching away her dog's food for making a mess in the living room.,care,negative,clifford
-You see a woman throwing a stapler at her colleague who is snoring during her talk.,care,negative,clifford
-You see a teacher hitting a student's hand with a ruler for falling asleep in class.,care,negative,clifford
-You see a woman slapping another woman who she is arguing with in the parking lot.,care,negative,clifford
-You see a girl throwing her hot coffee on a woman who is dating her ex-boyfriend,care,negative,clifford
-You see a wife hitting her husband on the side of his head for coming home late.,care,negative,clifford
-You see a boy placing a thumbtack sticking up on the chair of another student.,care,negative,clifford
-You see a woman spanking her child with a spatula for getting bad grades in school.,care,negative,clifford
-You see a student copying a classmate's answer sheet on a makeup final exam.,fairness,negative,clifford
-You see a runner taking a shortcut on the course during the marathon in order to win.,fairness,negative,clifford
-You see a tenant bribing a landlord to be the first to get their apartment repainted.,fairness,negative,clifford
-You see a soccer player pretending to be seriously fouled by an opposing player.,fairness,negative,clifford
-You see someone cheating in a card game while playing with a group of strangers.,fairness,negative,clifford
-You see a professor giving a bad grade to a student just because he dislikes him.,fairness,negative,clifford
-You see a referee intentionally making bad calls that help his favored team win.,fairness,negative,clifford
-You see a manager taking half the doughnuts from a box leaving little for others.,fairness,negative,clifford
-You see a judge taking on a criminal case although he is friends with the defendant.,fairness,negative,clifford
-You see a student getting an A on a group project when he didn't do his part.,fairness,negative,clifford
-You see an employee lying about how many hours she worked during the week.,fairness,negative,clifford
-You see a woman getting hired only because her father is close friends with the boss.,fairness,negative,clifford
-You see a girl asking for allowance even though her brother did her chores for her.,fairness,negative,clifford
-You see a girl taking all the Halloween candy from a bowl leaving none for others.,fairness,negative,clifford
-You see a politician using federal tax dollars to build an extension on his home.,fairness,negative,clifford
-You see a boy skipping to the front of the line because his friend is an employee.,fairness,negative,clifford
-You see a woman lying about the number of vacation days she has taken at work.,fairness,negative,clifford
-You see an employee joking with competitors about how bad his company did last year.,loyalty,negative,clifford
-You see a coach celebrating with the opposing team's players who just won the game.,loyalty,negative,clifford
-You see a former US General saying publicly he would never buy any American product.,loyalty,negative,clifford
-You see a mayor saying that the neighboring town is a much better town.,loyalty,negative,clifford
-You see the US Ambassador joking in Great Britain about the stupidity of Americans.,loyalty,negative,clifford
-You see a man leaving his family business to go work for their main competitor.,loyalty,negative,clifford
-You see a teacher publicly saying she hopes another school wins the math contest.,loyalty,negative,clifford
-You see a head cheerleader booing her high school's team during a homecoming game.,loyalty,negative,clifford
-You see the class president saying on TV that her rival college is a better school.,loyalty,negative,clifford
-You see a Hollywood star agreeing with a foreign dictator's denunciation of the US.,loyalty,negative,clifford
-You see a college president singing a rival school's fight song during a pep rally.,loyalty,negative,clifford
-You see a man secretly voting against his wife in a local beauty pageant.,loyalty,negative,clifford
-You see an American telling foreigners that the US is an evil force in the world.,loyalty,negative,clifford
-You see the coach's wife sponsoring a bake sale for her husband's rival team.,loyalty,negative,clifford
-You see a former Secretary of State publicly giving up his citizenship to the US.,loyalty,negative,clifford
-You see a US swimmer cheering as a Chinese foe beats his teammate to win the gold.,loyalty,negative,clifford
-You see a girl ignoring her father's orders by taking the car after her curfew.,authority,negative,clifford
-You see a woman refusing to stand when the judge walks into the courtroom.,authority,negative,clifford
-You see a girl repeatedly interrupting her teacher as he explains a new concept.,authority,negative,clifford
-You see a woman spray painting graffiti across the steps of the local courthouse.,authority,negative,clifford
-You see an intern disobeying an order to dress professionally and comb his hair.,authority,negative,clifford
-You see a man turn his back and walk away while his boss questions his work.,authority,negative,clifford
-You see a staff member talking loudly and interrupting the mayor's speech to the public.,authority,negative,clifford
-You see a teenage girl coming home late and ignoring her parents' strict curfew.,authority,negative,clifford
-You see a boy spray-painting anarchy symbols on the side of the police station.,authority,negative,clifford
-You see an employee trying to undermine all of her boss' ideas in front of others.,authority,negative,clifford
-You see a teaching assistant talking back to the teacher in front of the classrom.,authority,negative,clifford
-You see a group of women having a long and loud conversation during a church sermon.,authority,negative,clifford
-You see a star player ignoring her coach's order to come to the bench during a game.,authority,negative,clifford
-You see a player publicly yelling at his soccer coach during a playoff game.,authority,negative,clifford
-You see a man secretly watching sports on his cell phone during a pastor's sermon.,authority,negative,clifford
-You see a boy turning up the TV as his father talks about his military service.,authority,negative,clifford
-You see a student stating that her professor is a fool during an afternoon class.,authority,negative,clifford
-You see a man having sex with a frozen chicken before cooking it for dinner.,purity,negative,clifford
-You see a very drunk woman making out with multiple strangers on the city bus.,purity,negative,clifford
-You see a family eating the carcass of their pet dog that had been run over.,purity,negative,clifford
-You see a drunk elderly man offering to have oral sex with anyone in the bar.,purity,negative,clifford
-You see a teenager urinating in the wave pool at a crowded amusement park.,purity,negative,clifford
-You see a man in a bar using his phone to watch people having sex with animals.,purity,negative,clifford
-You see a teenage male in a dorm bathroom secretly using a stranger's toothbrush.,purity,negative,clifford
-You see a woman having intimate relations with a recently deceased loved one.,purity,negative,clifford
-You see a homosexual in a gay bar offering sex to anyone who buys him a drink.,purity,negative,clifford
-You see an employee at a morgue eating his pepperoni pizza off of a dead body.,purity,negative,clifford
-You see a girl and her sister making out with each other just for practice.,purity,negative,clifford
-You see a story about a remote tribe eating the flesh of their deceased members.,purity,negative,clifford
-You see a woman burping and farting loudly while eating at a fast food truck.,purity,negative,clifford
-You see a man searching through the trash to find women's discarded underwear.,purity,negative,clifford
-You see two first cousins getting married to each other in an elaborate wedding.,purity,negative,clifford
-You see a single man ordering an inflatable sex doll that looks like his secretary.,purity,negative,clifford
-You see a college student drinking until she vomits on herself and falls asleep.,purity,negative,clifford
+A teenage boy chuckles at an amputee he passes by while on the subway.,care,negative,clifford
+A girl laughs at another student forgetting her lines at a school play.,care,negative,clifford
+A woman comments out loud about how fat another woman looks in her jeans.,care,negative,clifford
+A man quickly cancels a blind date as soon as he sees the woman.,care,negative,clifford
+A boy tells a woman that she looks just like her overweight bulldog.,care,negative,clifford
+A girl laughs when she realizes her friend's dad is the janitor.,care,negative,clifford
+A man snickers as he passes by a cancer patient with a bald head.,care,negative,clifford
+A girl says that another girl is too ugly to be a varsity cheerleader.,care,negative,clifford
+A teenage girl openly stares at a disfigured woman as she walks past.,care,negative,clifford
+A boy makes fun of his brother for getting dumped by his girlfriend.,care,negative,clifford
+A man laughs at a disabled co-worker while at an office softball game.,care,negative,clifford
+A man loudly tells his wife that the dinner she cooked tastes awful.,care,negative,clifford
+A man tells a woman that her painting looks like it was done by children.,care,negative,clifford
+A woman clearly avoids sitting next to an obese woman on the bus.,care,negative,clifford
+A girl tells a boy that his older brother is much more attractive than him.,care,negative,clifford
+A girl tells her classmate that she looks like she has gained weight.,care,negative,clifford
+A woman swerves her car in order to intentionally run over a squirrel.,care,negative,clifford
+A woman throws her cat across the room for scratching the furniture.,care,negative,clifford
+A boy throws rocks at cows that are grazing in the local pasture.,care,negative,clifford
+A man lashes his pony with a whip for breaking loose from its pen.,care,negative,clifford
+A boy sets a series of traps to kill stray cats in his neighborhood.,care,negative,clifford
+A zoo trainer jabs a dolphin to get it to entertain his customers.,care,negative,clifford
+Someone leaves his dog outside in the rain after it dug in the trash.,care,negative,clifford
+A girl shoots geese repeatedly with a pellet gun out in the woods.,care,negative,clifford
+A woman snatches away her dog's food for making a mess in the living room.,care,negative,clifford
+A woman throws a stapler at her colleague who is snoring during her talk.,care,negative,clifford
+A teacher hits a student's hand with a ruler for falling asleep in class.,care,negative,clifford
+A woman slaps another woman who she is arguing with in the parking lot.,care,negative,clifford
+A girl throws her hot coffee on a woman who is dating her ex-boyfriend,care,negative,clifford
+A wife hits her husband on the side of his head for coming home late.,care,negative,clifford
+A boy places a thumbtack sticking up on the chair of another student.,care,negative,clifford
+A woman spanks her child with a spatula for getting bad grades in school.,care,negative,clifford
+A student copies a classmate's answer sheet on a makeup final exam.,fairness,negative,clifford
+A runner takes a shortcut on the course during the marathon in order to win.,fairness,negative,clifford
+A tenant bribes a landlord to be the first to get their apartment repainted.,fairness,negative,clifford
+A soccer player pretends to be seriously fouled by an opposing player.,fairness,negative,clifford
+Someone cheats in a card game while playing with a group of strangers.,fairness,negative,clifford
+A professor gives a bad grade to a student just because he dislikes him.,fairness,negative,clifford
+A referee intentionally makes bad calls that help his favored team win.,fairness,negative,clifford
+A manager takes half the doughnuts from a box leaving little for others.,fairness,negative,clifford
+A judge takes on a criminal case although he is friends with the defendant.,fairness,negative,clifford
+A student gets an A on a group project when he didn't do his part.,fairness,negative,clifford
+An employee lies about how many hours she worked during the week.,fairness,negative,clifford
+A woman gets hired only because her father is close friends with the boss.,fairness,negative,clifford
+A girl asks for allowance even though her brother did her chores for her.,fairness,negative,clifford
+A girl takes all the Halloween candy from a bowl leaving none for others.,fairness,negative,clifford
+A politician uses federal tax dollars to build an extension on his home.,fairness,negative,clifford
+A boy skips to the front of the line because his friend is an employee.,fairness,negative,clifford
+A woman lies about the number of vacation days she has taken at work.,fairness,negative,clifford
+An employee jokes with competitors about how bad his company did last year.,loyalty,negative,clifford
+A coach celebrates with the opposing team's players who just won the game.,loyalty,negative,clifford
+A former US General says publicly he would never buy any American product.,loyalty,negative,clifford
+A mayor says that the neighboring town is a much better town.,loyalty,negative,clifford
+The US Ambassador jokes in Great Britain about the stupidity of Americans.,loyalty,negative,clifford
+A man leaves his family business to go work for their main competitor.,loyalty,negative,clifford
+A teacher publicly says she hopes another school wins the math contest.,loyalty,negative,clifford
+A head cheerleader boos her high school's team during a homecoming game.,loyalty,negative,clifford
+The class president says on TV that her rival college is a better school.,loyalty,negative,clifford
+A Hollywood star agrees with a foreign dictator's denunciation of the US.,loyalty,negative,clifford
+A college president sings a rival school's fight song during a pep rally.,loyalty,negative,clifford
+A man secretly votes against his wife in a local beauty pageant.,loyalty,negative,clifford
+An American tells foreigners that the US is an evil force in the world.,loyalty,negative,clifford
+The coach's wife sponsors a bake sale for her husband's rival team.,loyalty,negative,clifford
+A former Secretary of State publicly gives up his citizenship to the US.,loyalty,negative,clifford
+A US swimmer cheers as a Chinese foe beats his teammate to win the gold.,loyalty,negative,clifford
+A girl ignores her father's orders by taking the car after her curfew.,authority,negative,clifford
+A woman refuses to stand when the judge walks into the courtroom.,authority,negative,clifford
+A girl repeatedly interrupts her teacher as he explains a new concept.,authority,negative,clifford
+A woman spray paints graffiti across the steps of the local courthouse.,authority,negative,clifford
+An intern disobeys an order to dress professionally and comb his hair.,authority,negative,clifford
+A man turns his back and walk away while his boss questions his work.,authority,negative,clifford
+A staff member talks loudly and interrupting the mayor's speech to the public.,authority,negative,clifford
+A teenage girl comes home late and ignoring her parents' strict curfew.,authority,negative,clifford
+A boy spray-paints anarchy symbols on the side of the police station.,authority,negative,clifford
+An employee tries to undermine all of her boss' ideas in front of others.,authority,negative,clifford
+A teaching assistant talks back to the teacher in front of the classrom.,authority,negative,clifford
+A group of women have a long and loud conversation during a church sermon.,authority,negative,clifford
+A star player ignores her coach's order to come to the bench during a game.,authority,negative,clifford
+A player publicly yells at his soccer coach during a playoff game.,authority,negative,clifford
+A man secretly watches sports on his cell phone during a pastor's sermon.,authority,negative,clifford
+A boy turns up the TV as his father talks about his military service.,authority,negative,clifford
+A student states that her professor is a fool during an afternoon class.,authority,negative,clifford
+A man has sex with a frozen chicken before cooking it for dinner.,purity,negative,clifford
+A very drunk woman makes out with multiple strangers on the city bus.,purity,negative,clifford
+A family eats the carcass of their pet dog that had been run over.,purity,negative,clifford
+A drunk elderly man offers to have oral sex with anyone in the bar.,purity,negative,clifford
+A teenager urinates in the wave pool at a crowded amusement park.,purity,negative,clifford
+A man in a bar uses his phone to watch people having sex with animals.,purity,negative,clifford
+A teenage male in a dorm bathroom secretly uses a stranger's toothbrush.,purity,negative,clifford
+A woman has intimate relations with a recently deceased loved one.,purity,negative,clifford
+A homosexual in a gay bar offers sex to anyone who buys him a drink.,purity,negative,clifford
+An employee at a morgue eats his pepperoni pizza off of a dead body.,purity,negative,clifford
+A girl and her sister make out with each other just for practice.,purity,negative,clifford
+A story about a remote tribe eating the flesh of their deceased members.,purity,negative,clifford
+A woman burps and farts loudly while eating at a fast food truck.,purity,negative,clifford
+A man searches through the trash to find women's discarded underwear.,purity,negative,clifford
+Two first cousins get married to each other in an elaborate wedding.,purity,negative,clifford
+A single man orders an inflatable sex doll that looks like his secretary.,purity,negative,clifford
+A college student drinks until she vomits on herself and falls asleep.,purity,negative,clifford
 Basketballers disrespect their coach,authority,negative,mccurrie
 A kid sues her parents to pay for her education.,authority,negative,mccurrie
 A student disrupts the class,authority,negative,mccurrie
